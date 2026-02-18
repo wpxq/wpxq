@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://vercel.app/wpxq'), 
+  metadataBase: new URL('https://wpxq.vercel.app/'), 
   title : {
     default: "wpxq - Portfolio",
     template: "%s | wpxq"
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "wpxq - Portfolio",
     description: "wpxq - cau",
-    url: "https://vercel.app/wpxq",
+    url: "https://wpxq.vercel.app/",
     siteName: "wpxq",
     locale: "en_US",
     type: "website",
