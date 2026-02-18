@@ -1,5 +1,5 @@
 import Image from "next/image";
-import pfp from '@/public/images/pfp.jpg';
+import pfp from '/images/pfp.jpg';
 import Footer from '@/components/Footer';
 import ProjectRow from '@/components/ProjectRow';
 
