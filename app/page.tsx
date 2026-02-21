@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Footer from '@/components/Footer';
 import ProjectRow from '@/components/ProjectRow';
+import SkillRow from '@/components/SkillRow';
 
 export default function Home() {
   return (
@@ -12,16 +13,23 @@ export default function Home() {
       <Image src="/images/pfp.jpg" alt="Profile" className="object-cover" fill priority />
     </div>
 
-    <div className="flex flex-col">
-      <h1 className="text-6xl md:text-[140px] font-bold leading-[0.75] tracking-tighter uppercase italic">
-        w`
-      </h1>
-      <p className="text-gray-500 font-mono text-sm md:text-base mt-4 ml-2 tracking-[0.2em] uppercase">
-        Learning Next.js & Linux user
-      </p>
-    </div>
+  <div className="flex flex-col">
+  <h1 className="text-6xl md:text-[140px] font-bold leading-[0.75] tracking-tighter uppercase italic">
+    w`
+  </h1>
+  <p className="text-gray-500 font-mono text-sm md:text-base mt-4 ml-2 tracking-[0.2em] uppercase">
+    Arch Linux User & Programmer
+  </p>
+</div>
   </div>
 </section>
+
+    <div className="mt-24 mb-10 ml-2">
+      <h2 className="text-4xl md:text-6xl font-bold uppercase italic tracking-tighter text-gray-200 opacity-50">
+        Projects
+      </h2>
+      <div className="h-[2px] w-12 bg-gray-900 mt-2"></div>
+    </div>
 
         <section className="space-y-0 border-t border-gray-900">
           <ProjectRow 
@@ -44,6 +52,25 @@ export default function Home() {
           />
         </section>
 
+    <div className="mt-24 mb-10 ml-2">
+      <h2 className="text-4xl md:text-6xl font-bold uppercase italic tracking-tighter text-gray-200 opacity-50">
+        Skills
+      </h2>
+      <div className="h-[2px] w-12 bg-gray-900 mt-2"></div>
+    </div>
+
+        <section className="border-t border-gray-900">
+          <SkillRow
+            category="Front-End"
+            skills="Next.js / Tailwindcss"
+            level="[ Learning ]"
+          />
+          <SkillRow
+            category="Scripting"
+            skills="Python"
+            level="[ 2022 - Present ]"
+          />
+        </section>
         <Footer />
       </main>
     </div>
