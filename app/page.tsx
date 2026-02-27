@@ -5,7 +5,7 @@ import SkillRow from '@/components/SkillRow';
 
 export default function Home() {
   return (
-    <div className="bg-gray-500 text-white selection:bg-white selection:text-black min-h-screen font-sans antialiased">
+    <div className="bg-gray-900 text-white selection:bg-white selection:text-black min-h-screen font-sans antialiased">
       <main className="max-w-4xl mx-auto px-6 pt-32">
       <section className="mb-40">
   <div className="flex items-end gap-6 md:gap-10">
