@@ -50,6 +50,12 @@ export default function Home() {
             description="E-Shop with Spoofers & Cheats, it was for my friend."
             url="https://github.com/wpxq/mintzcheatz"
           />
+          <ProjectRow
+            number="04"
+            title="DIL-Tool"
+            description="Discord Invite Lookup Tool // CLI Version"
+            url="https://github.com/wpxq/DIL-Tool"
+            />
         </section>
 
     <div className="mt-24 mb-10 ml-2">
