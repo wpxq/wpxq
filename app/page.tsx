@@ -26,6 +26,26 @@ export default function Home() {
 
     <div className="mt-24 mb-10 ml-2">
       <h2 className="text-4xl md:text-6xl font-bold uppercase italic tracking-tighter text-gray-200 opacity-50">
+        Skills
+      </h2>
+      <div className="h-[2px] w-12 bg-gray-900 mt-2"></div>
+    </div>
+
+        <section className="border-t border-gray-900">
+          <SkillRow
+            category="Front-End"
+            skills="Next.js / Tailwindcss"
+            level="[ Learning ]"
+          />
+          <SkillRow
+            category="Scripting"
+            skills="Python"
+            level="[ 2022 - Present ]"
+          />
+        </section>
+
+    <div className="mt-24 mb-10 ml-2">
+      <h2 className="text-4xl md:text-6xl font-bold uppercase italic tracking-tighter text-gray-200 opacity-50">
         Projects
       </h2>
       <div className="h-[2px] w-12 bg-gray-900 mt-2"></div>
@@ -62,26 +82,6 @@ export default function Home() {
             description="Docker Bot for Telegram that uses a command to list which containers are running and which are not "
             url="https://github.com/wpxq/DockerTelegramBot"
             />
-        </section>
-
-    <div className="mt-24 mb-10 ml-2">
-      <h2 className="text-4xl md:text-6xl font-bold uppercase italic tracking-tighter text-gray-200 opacity-50">
-        Skills
-      </h2>
-      <div className="h-[2px] w-12 bg-gray-900 mt-2"></div>
-    </div>
-
-        <section className="border-t border-gray-900">
-          <SkillRow
-            category="Front-End"
-            skills="Next.js / Tailwindcss"
-            level="[ Learning ]"
-          />
-          <SkillRow
-            category="Scripting"
-            skills="Python"
-            level="[ 2022 - Present ]"
-          />
         </section>
         <Footer />
       </main>
