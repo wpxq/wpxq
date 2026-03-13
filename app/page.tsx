@@ -78,8 +78,14 @@ export default function Home() {
             />
             <ProjectRow
             number="05"
+            title="DIL-Tool-V2"
+            description="Discord Invite Lookup Tool // WEB Version"
+            url="https://github.com/wpxq/DIL-Tool-V2"
+            />
+            <ProjectRow
+            number="06"
             title="DockerTelegramBot"
-            description="Docker Bot for Telegram that uses a command to list which containers are running and which are not "
+            description="Docker Bot for Telegram that uses a command to list which containers are running and which are not"
             url="https://github.com/wpxq/DockerTelegramBot"
             />
         </section>
