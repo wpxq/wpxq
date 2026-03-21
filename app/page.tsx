@@ -88,6 +88,12 @@ export default function Home() {
             description="Docker Bot for Telegram that uses a command to list which containers are running and which are not"
             url="https://github.com/wpxq/DockerTelegramBot"
             />
+            <ProjectRow
+            number="07"
+            title="TelegramToDiscord"
+            description="A Telegram bot that sends messages and images or videos to a Discord webhook, in case you have a limit on your Discord account"
+            url="https://github.com/wpxq/TelegramToDiscord"
+            />
         </section>
         <Footer />
       </main>
