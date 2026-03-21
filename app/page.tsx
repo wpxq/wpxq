@@ -94,6 +94,12 @@ export default function Home() {
             description="A Telegram bot that sends messages and images or videos to a Discord webhook, in case you have a limit on your Discord account"
             url="https://github.com/wpxq/TelegramToDiscord"
             />
+            <ProjectRow
+            number="08"
+            title="ppush"
+            description="lightweight Python automation script designed to streamline your Git workflow. Stop typing three commands repeatedly—do it all with one"
+            url="https://github.com/wpxq/ppush"
+            />
         </section>
         <Footer />
       </main>
