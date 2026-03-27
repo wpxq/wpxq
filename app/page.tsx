@@ -100,6 +100,12 @@ export default function Home() {
             description="lightweight Python automation script designed to streamline your Git workflow. Stop typing three commands repeatedly—do it all with one"
             url="https://github.com/wpxq/ppush"
             />
+            <ProjectRow
+            number="09"
+            title="guardian-api"
+            description="A lightweight, production-ready FastAPI backend designed for Docker infrastructure monitoring and real-time container observability."
+            url="https://github.com/wpxq/guardian-api"
+            />
         </section>
         <Footer />
       </main>
