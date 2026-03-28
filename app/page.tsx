@@ -18,7 +18,7 @@ export default function Home() {
     w`
   </h1>
   <p className="text-gray-500 font-mono text-sm md:text-base mt-4 ml-2 tracking-[0.2em] uppercase">
-    Arch Linux User & Programmer
+    Linux User & Programmer
   </p>
 </div>
   </div>
@@ -51,62 +51,34 @@ export default function Home() {
       <div className="h-[2px] w-12 bg-gray-900 mt-2"></div>
     </div>
 
-        <section className="space-y-0 border-t border-gray-900">
-          <ProjectRow 
-            number="01" 
-            title="updateit"
-            description="CLI tool to update all packages from listed package managers."
-            url="https://github.com/wpxq/updateit"
-          />
-        <ProjectRow 
-            number="02" 
-            title="friends-export"
-            description="Export Friends List from Discord."
-            url="https://github.com/wpxq/friends-export"
-          />
-        <ProjectRow 
-            number="03" 
-            title="MintzCheatz"
-            description="E-Shop with Spoofers & Cheats, it was for my friend."
-            url="https://github.com/wpxq/mintzcheatz"
-          />
-          <ProjectRow
-            number="04"
-            title="DIL-Tool"
-            description="Discord Invite Lookup Tool // CLI Version"
-            url="https://github.com/wpxq/DIL-Tool"
-            />
-            <ProjectRow
-            number="05"
-            title="DIL-Tool-V2"
-            description="Discord Invite Lookup Tool // WEB Version"
-            url="https://github.com/wpxq/DIL-Tool-V2"
-            />
-            <ProjectRow
-            number="06"
-            title="DockerTelegramBot"
-            description="Docker Bot for Telegram that uses a command to list which containers are running and which are not"
-            url="https://github.com/wpxq/DockerTelegramBot"
-            />
-            <ProjectRow
-            number="07"
-            title="TelegramToDiscord"
-            description="A Telegram bot that sends messages and images or videos to a Discord webhook, in case you have a limit on your Discord account"
-            url="https://github.com/wpxq/TelegramToDiscord"
-            />
-            <ProjectRow
-            number="08"
-            title="ppush"
-            description="lightweight Python automation script designed to streamline your Git workflow. Stop typing three commands repeatedly—do it all with one"
-            url="https://github.com/wpxq/ppush"
-            />
-            <ProjectRow
-            number="09"
-            title="guardian-api"
-            description="A lightweight, production-ready FastAPI backend designed for Docker infrastructure monitoring and real-time container observability."
-            url="https://github.com/wpxq/guardian-api"
-            />
-        </section>
+<section className="space-y-0 border-t border-gray-900">
+  <ProjectRow 
+    number="01" 
+    title="updateit"
+    description="CLI tool to update all packages from listed package managers."
+    url="https://github.com/wpxq/updateit"
+  />
+  <ProjectRow 
+    number="02" 
+    title="ppush"
+    description="lightweight Python automation script designed to streamline your Git workflow. Stop typing three commands repeatedly—do it all with one."
+    url="https://github.com/wpxq/ppush"
+  />
+  <ProjectRow
+    number="03"
+    title="Guardian API"
+    description="A lightweight, production-ready FastAPI backend designed for Docker infrastructure monitoring and real-time container observability."
+    url="https://github.com/wpxq/guardian-api"
+  />
+  <div className="py-8 border-t border-gray-900 text-center">
+    <a 
+      href="/projects" 
+      className="inline-block text-sm font-mono text-gray-500 hover:text-white transition-colors duration-200"
+    >
+      [ View all projects ]
+    </a>
+  </div>
+</section>
         <Footer />
       </main>
     </div>
