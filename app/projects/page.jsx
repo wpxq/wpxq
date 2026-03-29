@@ -62,9 +62,15 @@ export default function ProjectsPage() {
             />
             <ProjectRow
             number="09"
-            title="guardian-api"
+            title="Guardian API"
             description="A lightweight, production-ready FastAPI backend designed for Docker infrastructure monitoring and real-time container observability."
             url="https://github.com/wpxq/guardian-api"
+            />
+            <ProjectRow
+            number="10"
+            title="WMUSIC"
+            description=" Minimalistic FLAC streamer running on docker."
+            url="https://github.com/wpxq/w-music"
             />
         </section>
       <a href="/" className="mt-12 inline-block text-gray-400 hover:text-white">
