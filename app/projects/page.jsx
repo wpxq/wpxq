@@ -72,6 +72,12 @@ export default function ProjectsPage() {
             description=" Minimalistic FLAC streamer running on docker."
             url="https://github.com/wpxq/w-music"
             />
+            <ProjectRow
+            number="11"
+            title="Messages deleter for Discord"
+            description="In case if you have any messages on the server or in private messages that violate the terms of service."
+            url="https://github.com/wpxq/DC-Messages-Remover"
+            />
         </section>
       <a href="/" className="mt-12 inline-block text-gray-400 hover:text-white">
         ← Back to Home
