@@ -69,7 +69,7 @@ export default function ProjectsPage() {
             <ProjectRow
             number="10"
             title="WMUSIC"
-            description=" Minimalistic FLAC streamer running on docker."
+            description=" Minimalistic streamer running on docker."
             url="https://github.com/wpxq/w-music"
             />
             <ProjectRow
