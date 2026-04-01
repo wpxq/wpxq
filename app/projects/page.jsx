@@ -78,6 +78,12 @@ export default function ProjectsPage() {
             description="In case if you have any messages on the server or in private messages that violate the terms of service."
             url="https://github.com/wpxq/DC-Messages-Remover"
             />
+            <ProjectRow
+            number="12"
+            title="W-Cards"
+            description="A minimalist, high-performance Progressive Web App (PWA) designed to store loyalty cards and barcodes."
+            url="https://github.com/wpxq/w-cards"
+            />
         </section>
       <a href="/" className="mt-12 inline-block text-gray-400 hover:text-white">
         ← Back to Home
