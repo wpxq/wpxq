@@ -84,6 +84,12 @@ export default function ProjectsPage() {
             description="A minimalist, high-performance Progressive Web App (PWA) designed to store loyalty cards and barcodes."
             url="https://github.com/wpxq/w-cards"
             />
+            <ProjectRow
+            number="13"
+            title="IdeasBot"
+            description="A lightweight, secure, and private Telegram bot designed for quick brainstorming and idea logging. Perfect for developers who want to keep their thoughts organized in a simple text file on their own infrastructure."
+            url="https://github.com/wpxq/ideas-bot"
+            />
         </section>
       <a href="/" className="mt-12 inline-block text-gray-400 hover:text-white">
         ← Back to Home
