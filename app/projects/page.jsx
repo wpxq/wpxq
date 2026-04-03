@@ -87,11 +87,12 @@ export default function ProjectsPage() {
             <ProjectRow
             number="13"
             title={
-              <span>
-                IdeasBot <span style={{ color: 'white' }}>[</span>
-                <span style={{ color: '#3b82f6' }}>I personally use it</span>
-                <span style={{ color: 'white' }}>]</span>
-              </span>
+            <span className="flex items-center gap-1">
+                IdeasBot 
+                <span className="text-white ml-2">[</span>
+                <span className="text-blue-800 font-mono font-normal">I personally use it</span>
+                <span className="text-white">]</span>
+            </span>
             }
             description="A lightweight, secure, and private Telegram bot designed for quick brainstorming and idea logging. Perfect for developers who want to keep their thoughts organized in a simple text file on their own infrastructure."
             url="https://github.com/wpxq/ideas-bot"
