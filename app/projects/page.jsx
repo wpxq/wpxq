@@ -13,14 +13,28 @@ export default function ProjectsPage() {
     </div>
         <section className="space-y-0 border-t border-gray-900">
           <ProjectRow 
-            number="01" 
-            title="updateit"
+            number="01"
+            title={
+            <span className="flex items-center gap-1">
+                updateit 
+                <span className="text-white ml-2">[</span>
+                <span className="text-blue-800 font-mono font-normal">I personally use it</span>
+                <span className="text-white">]</span>
+            </span>
+            }
             description="CLI tool to update all packages from listed package managers."
             url="https://github.com/wpxq/updateit"
           />
         <ProjectRow 
             number="02" 
-            title="friends-export"
+            title={
+            <span className="flex items-center gap-1">
+                friends-export 
+                <span className="text-white ml-2">[</span>
+                <span className="text-blue-800 font-mono font-normal">I personally use it</span>
+                <span className="text-white">]</span>
+            </span>
+            }
             description="Export Friends List from Discord."
             url="https://github.com/wpxq/friends-export"
           />
@@ -56,7 +70,14 @@ export default function ProjectsPage() {
             />
             <ProjectRow
             number="08"
-            title="ppush"
+            title={
+            <span className="flex items-center gap-1">
+                ppush 
+                <span className="text-white ml-2">[</span>
+                <span className="text-blue-800 font-mono font-normal">I personally use it</span>
+                <span className="text-white">]</span>
+            </span>
+            }
             description="lightweight Python automation script designed to streamline your Git workflow. Stop typing three commands repeatedly—do it all with one"
             url="https://github.com/wpxq/ppush"
             />
@@ -74,7 +95,14 @@ export default function ProjectsPage() {
             />
             <ProjectRow
             number="11"
-            title="Messages deleter for Discord"
+            title={
+            <span className="flex items-center gap-1">
+                Messages deleter for Discord 
+                <span className="text-white ml-2">[</span>
+                <span className="text-blue-800 font-mono font-normal">I personally use it</span>
+                <span className="text-white">]</span>
+            </span>
+            }
             description="In case if you have any messages on the server or in private messages that violate the terms of service."
             url="https://github.com/wpxq/DC-Messages-Remover"
             />
