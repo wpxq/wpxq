@@ -86,7 +86,14 @@ export default function ProjectsPage() {
             />
             <ProjectRow
             number="13"
-            title="IdeasBot"
+            title={
+                <span className="flex items-center gap-1">
+                  IdeasBot 
+                  <span className="text-white ml-2">[</span>
+                  <span className="text-blue-500 font-medium">I personally use it</span>
+                  <span className="text-white">]</span>
+                </span>
+              }
             description="A lightweight, secure, and private Telegram bot designed for quick brainstorming and idea logging. Perfect for developers who want to keep their thoughts organized in a simple text file on their own infrastructure."
             url="https://github.com/wpxq/ideas-bot"
             />
