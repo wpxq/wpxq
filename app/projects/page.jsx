@@ -120,7 +120,7 @@ export default function ProjectsPage() {
             <span className="flex items-center gap-1">
                 IdeasBot 
                 <span className="text-white ml-2">[</span>
-                <span className="text-blue-800 font-normal">I personally use it</span>
+                <span className="text-blue-800 font-normal px-1">I personally use it</span>
                 <span className="text-white">]</span>
             </span>
             }
