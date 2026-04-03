@@ -96,11 +96,13 @@ export default function ProjectsPage() {
             <ProjectRow
             number="11"
             title={
-            <span className="flex items-center gap-1">
-                Messages deleter for Discord 
-                <span className="text-white ml-2">[</span>
+            <span className="leading-tight">
+                Messages deleter for Discord{' '}
+            <span className="whitespace-nowrap">
+                <span className="text-white ml-1">[</span>
                 <span className="text-blue-800 font-mono font-normal">I personally use it</span>
                 <span className="text-white">]</span>
+              </span>
             </span>
             }
             description="In case if you have any messages on the server or in private messages that violate the terms of service."
