@@ -58,7 +58,7 @@ export default function Home() {
     <span className="flex items-center gap-1">
       updateit 
       <span className="text-white ml-2">[</span>
-      <span className="text-blue-800 font-mono font-normal">I personally use it</span>
+      <span className="text-blue-800 font-normal">I personally use it</span>
       <span className="text-white">]</span>
     </span>
     }
@@ -71,7 +71,7 @@ export default function Home() {
     <span className="flex items-center gap-1">
       ppush 
       <span className="text-white ml-2">[</span>
-      <span className="text-blue-800 font-mono font-normal">I personally use it</span>
+      <span className="text-blue-800 font-normal">I personally use it</span>
       <span className="text-white">]</span>
     </span>
     }

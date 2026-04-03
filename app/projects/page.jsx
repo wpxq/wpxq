@@ -18,7 +18,7 @@ export default function ProjectsPage() {
             <span className="flex items-center gap-1">
                 updateit 
                 <span className="text-white ml-2">[</span>
-                <span className="text-blue-800 font-mono font-normal">I personally use it</span>
+                <span className="text-blue-800 font-normal">I personally use it</span>
                 <span className="text-white">]</span>
             </span>
             }
@@ -31,7 +31,7 @@ export default function ProjectsPage() {
             <span className="flex items-center gap-1">
                 friends-export 
                 <span className="text-white ml-2">[</span>
-                <span className="text-blue-800 font-mono font-normal">I personally use it</span>
+                <span className="text-blue-800 font-normal">I personally use it</span>
                 <span className="text-white">]</span>
             </span>
             }
@@ -74,7 +74,7 @@ export default function ProjectsPage() {
             <span className="flex items-center gap-1">
                 ppush 
                 <span className="text-white ml-2">[</span>
-                <span className="text-blue-800 font-mono font-normal">I personally use it</span>
+                <span className="text-blue-800 font-normal">I personally use it</span>
                 <span className="text-white">]</span>
             </span>
             }
@@ -99,8 +99,8 @@ export default function ProjectsPage() {
             <span className="leading-tight">
                 Messages deleter for Discord{' '}
             <span className="whitespace-nowrap">
-                <span className="text-white ml-1">[</span>
-                <span className="text-blue-800 font-mono font-normal">I personally use it</span>
+                <span className="text-white ml-2">[</span>
+                <span className="text-blue-800 font-normal">I personally use it</span>
                 <span className="text-white">]</span>
               </span>
             </span>
@@ -120,7 +120,7 @@ export default function ProjectsPage() {
             <span className="flex items-center gap-1">
                 IdeasBot 
                 <span className="text-white ml-2">[</span>
-                <span className="text-blue-800 font-mono font-normal">I personally use it</span>
+                <span className="text-blue-800 font-normal">I personally use it</span>
                 <span className="text-white">]</span>
             </span>
             }
