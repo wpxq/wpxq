@@ -19,7 +19,7 @@ jobs:
         with:
           card: stats
           options: "username=wpxq&show_icons=true&theme=radical"
-          path: stats.svg 
+          path: stats.svg
           token: ${{ secrets.README_TOKEN }}
 
       - name: Generate top languages card
@@ -35,6 +35,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add *.svg
-          git pull origin main --rebase
+          # TAHELE ŘÁDKA TO PŘETLAČÍ:
           git commit -m "Update README cards" || exit 0
-          git push --force
+          git push --force origin main
