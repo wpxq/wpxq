@@ -127,7 +127,20 @@ export default function ProjectsPage() {
             description="A lightweight, secure, and private Telegram bot designed for quick brainstorming and idea logging. Perfect for developers who want to keep their thoughts organized in a simple text file on their own infrastructure."
             url="https://github.com/wpxq/ideas-bot"
             />
-        </section>
+            <ProjectRow
+            number="14"
+            title={
+              <span className="flex items-center gap-1">
+                MoviesRemind 
+                <span className="text-white ml-2">[</span>
+                <span className="text-blue-800 font-normal">I personally used it</span>
+                <span className="text-white">]</span>
+              </span>
+            }
+            description="A minimalist movie watchlist to keep track of films you want to see. Built with FastAPI, SQLite, and Tailwind CSS. This project is fully 'dockerized' for easy deployment."
+            url="https://github.com/wpxq/moviesremind"
+            />
+            </section>
       <a href="/" className="mt-12 inline-block text-gray-400 hover:text-white">
         ← Back to Home
       </a>
