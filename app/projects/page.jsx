@@ -69,7 +69,7 @@ export default function ProjectsPage() {
                 TelegramToDiscord{' '}
             <span className="whitespace-nowrap">
                 <span className="text-white ml-2">[</span>
-                <span className="text-blue-800 font-normal px-1 inline-block">I personally use it</span>
+                <span className="text-blue-800 font-normal px-1 inline-block">I personally used it</span>
                 <span className="text-white">]</span>
               </span>
             </span>
