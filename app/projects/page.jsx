@@ -64,7 +64,14 @@ export default function ProjectsPage() {
             />
             <ProjectRow
             number="07"
-            title="TelegramToDiscord"
+            title={
+            <span className="flex items-center gap-1">
+                TelegramToDiscord 
+                <span className="text-white ml-2">[</span>
+                <span className="text-blue-800 font-normal">I personally used it</span>
+                <span className="text-white">]</span>
+            </span>
+            }
             description="A Telegram bot that sends messages and images or videos to a Discord webhook, in case you have a limit on your Discord account"
             url="https://github.com/wpxq/TelegramToDiscord"
             />
