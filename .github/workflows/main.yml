@@ -15,7 +15,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=wpxq&show_icons=true&theme=dark
+          options: "username=wpxq&show_icons=true&theme=dark"
           path: stats.svg
           token: ${{ secrets.README_TOKEN }}
 
@@ -23,7 +23,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: languages
-          options: username=wpxq&theme=dark
+          options: "username=wpxq&theme=dark"
           path: languages.svg
           token: ${{ secrets.README_TOKEN }}
 
