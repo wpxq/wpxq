@@ -153,7 +153,7 @@ export default function ProjectsPage() {
             number="15"
             title={
               <span className="flex items-center gap-1">
-                SSH Login Telegram Notifies 
+                SSH-Notifier-Telegram 
                 <span className="text-white ml-2">[</span>
                 <span className="text-blue-800 font-normal">I personally use it</span>
                 <span className="text-white">]</span>
