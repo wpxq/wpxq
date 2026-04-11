@@ -55,26 +55,26 @@ export default function Home() {
   <ProjectRow 
     number="01"
     title={
-    <span className="flex items-center gap-1">
-      updateit 
-      <span className="text-white ml-2">[</span>
-      <span className="text-blue-800 font-normal">I personally use it</span>
-      <span className="text-white">]</span>
-    </span>
-    }
+      <div className="flex items-center flex-wrap gap-2">
+      <span className="font-bold">updateit</span>
+      <span className="text-xs uppercase px-2 py-0.5 rounded border border-blue-500/30 bg-blue-500/10 text-blue-400 font-medium">
+      I personally use it
+      </span>
+    </div>
+  }
     description="CLI tool to update all packages from listed package managers."
     url="https://github.com/wpxq/updateit"
   />
   <ProjectRow 
     number="02"
     title={
-    <span className="flex items-center gap-1">
-      ppush 
-      <span className="text-white ml-2">[</span>
-      <span className="text-blue-800 font-normal">I personally use it</span>
-      <span className="text-white">]</span>
-    </span>
-    }
+      <div className="flex items-center flex-wrap gap-2">
+      <span className="font-bold">ppush</span>
+      <span className="text-xs uppercase px-2 py-0.5 rounded border border-blue-500/30 bg-blue-500/10 text-blue-400 font-medium">
+      I personally use it
+      </span>
+    </div>
+  }
     description="lightweight Python automation script designed to streamline your Git workflow. Stop typing three commands repeatedly—do it all with one."
     url="https://github.com/wpxq/ppush"
   />

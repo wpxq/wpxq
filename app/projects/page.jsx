@@ -14,27 +14,27 @@ export default function ProjectsPage() {
         <section className="space-y-0 border-t border-gray-900">
           <ProjectRow 
             number="01"
-            title={
-            <span className="flex items-center gap-1">
-                updateit 
-                <span className="text-white ml-2">[</span>
-                <span className="text-blue-800 font-normal">I personally use it</span>
-                <span className="text-white">]</span>
-            </span>
-            }
+              title={
+                <div className="flex items-center flex-wrap gap-2">
+                  <span className="font-bold">updateit</span>
+                  <span className="text-xs uppercase px-2 py-0.5 rounded border border-blue-500/30 bg-blue-500/10 text-blue-400 font-medium">
+                    I personally use it
+                  </span>
+                </div>
+              }
             description="CLI tool to update all packages from listed package managers."
             url="https://github.com/wpxq/updateit"
           />
         <ProjectRow 
             number="02" 
-            title={
-            <span className="flex items-center gap-1">
-                friends-export 
-                <span className="text-white ml-2">[</span>
-                <span className="text-blue-800 font-normal">I personally use it</span>
-                <span className="text-white">]</span>
-            </span>
-            }
+              title={
+                <div className="flex items-center flex-wrap gap-2">
+                  <span className="font-bold">Friends Exporter</span>
+                  <span className="text-xs uppercase px-2 py-0.5 rounded border border-blue-500/30 bg-blue-500/10 text-blue-400 font-medium">
+                    I personally use it
+                  </span>
+                </div>
+              }
             description="Export Friends List from Discord."
             url="https://github.com/wpxq/friends-export"
           />
@@ -64,29 +64,27 @@ export default function ProjectsPage() {
             />
             <ProjectRow
             number="07"
-            title={
-            <span className="leading-tight">
-                TelegramToDiscord{' '}
-            <span className="whitespace-nowrap">
-                <span className="text-white ml-2">[</span>
-                <span className="text-blue-800 font-normal px-1 inline-block">I personally used it</span>
-                <span className="text-white">]</span>
-              </span>
-            </span>
-            }
+              title={
+                <div className="flex items-center flex-wrap gap-2">
+                  <span className="font-bold">Telegram To Discord</span>
+                  <span className="text-xs uppercase px-2 py-0.5 rounded border border-blue-500/30 bg-blue-500/10 text-blue-400 font-medium">
+                    I personally used it
+                  </span>
+                </div>
+              }
             description="A Telegram bot that sends messages and images or videos to a Discord webhook, in case you have a limit on your Discord account"
             url="https://github.com/wpxq/TelegramToDiscord"
             />
             <ProjectRow
             number="08"
-            title={
-            <span className="flex items-center gap-1">
-                ppush 
-                <span className="text-white ml-2">[</span>
-                <span className="text-blue-800 font-normal">I personally use it</span>
-                <span className="text-white">]</span>
-            </span>
-            }
+              title={
+                <div className="flex items-center flex-wrap gap-2">
+                  <span className="font-bold">ppush</span>
+                  <span className="text-xs uppercase px-2 py-0.5 rounded border border-blue-500/30 bg-blue-500/10 text-blue-400 font-medium">
+                    I personally use it
+                  </span>
+                </div>
+              }
             description="lightweight Python automation script designed to streamline your Git workflow. Stop typing three commands repeatedly—do it all with one"
             url="https://github.com/wpxq/ppush"
             />
@@ -104,16 +102,14 @@ export default function ProjectsPage() {
             />
             <ProjectRow
             number="11"
-            title={
-            <span className="leading-tight">
-                Messages deleter for Discord{' '}
-            <span className="whitespace-nowrap">
-                <span className="text-white ml-2">[</span>
-                <span className="text-blue-800 font-normal px-1 inline-block">I personally use it</span>
-                <span className="text-white">]</span>
-              </span>
-            </span>
-            }
+              title={
+                <div className="flex items-center flex-wrap gap-2">
+                  <span className="font-bold">Discord Messages Deleter</span>
+                  <span className="text-xs uppercase px-2 py-0.5 rounded border border-blue-500/30 bg-blue-500/10 text-blue-400 font-medium">
+                    I personally use it
+                  </span>
+                </div>
+              }
             description="In case if you have any messages on the server or in private messages that violate the terms of service."
             url="https://github.com/wpxq/DC-Messages-Remover"
             />
@@ -125,27 +121,27 @@ export default function ProjectsPage() {
             />
             <ProjectRow
             number="13"
-            title={
-            <span className="flex items-center gap-1">
-                IdeasBot 
-                <span className="text-white ml-2">[</span>
-                <span className="text-blue-800 font-normal">I personally use it</span>
-                <span className="text-white">]</span>
-            </span>
-            }
+              title={
+                <div className="flex items-center flex-wrap gap-2">
+                  <span className="font-bold">IdeasBot</span>
+                  <span className="text-xs uppercase px-2 py-0.5 rounded border border-blue-500/30 bg-blue-500/10 text-blue-400 font-medium">
+                    I personally use it
+                  </span>
+                </div>
+              }
             description="A lightweight, secure, and private Telegram bot designed for quick brainstorming and idea logging. Perfect for developers who want to keep their thoughts organized in a simple text file on their own infrastructure."
             url="https://github.com/wpxq/ideas-bot"
             />
             <ProjectRow
             number="14"
-            title={
-              <span className="flex items-center gap-1">
-                MoviesRemind 
-                <span className="text-white ml-2">[</span>
-                <span className="text-blue-800 font-normal">I personally used it</span>
-                <span className="text-white">]</span>
-              </span>
-            }
+              title={
+                <div className="flex items-center flex-wrap gap-2">
+                  <span className="font-bold">MoviesRemind</span>
+                  <span className="text-xs uppercase px-2 py-0.5 rounded border border-blue-500/30 bg-blue-500/10 text-blue-400 font-medium">
+                    I personally used it
+                  </span>
+                </div>
+              }
             description="A minimalist movie watchlist to keep track of films you want to see. Built with FastAPI, SQLite, and Tailwind CSS. This project is fully 'dockerized' for easy deployment."
             url="https://github.com/wpxq/moviesremind"
             />
