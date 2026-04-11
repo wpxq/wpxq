@@ -149,6 +149,19 @@ export default function ProjectsPage() {
             description="A minimalist movie watchlist to keep track of films you want to see. Built with FastAPI, SQLite, and Tailwind CSS. This project is fully 'dockerized' for easy deployment."
             url="https://github.com/wpxq/moviesremind"
             />
+            <ProjectRow
+            number="15"
+            title={
+              <span className="flex items-center gap-1">
+                SSH Login Telegram Notifies 
+                <span className="text-white ml-2">[</span>
+                <span className="text-blue-800 font-normal">I personally use it</span>
+                <span className="text-white">]</span>
+              </span>
+            }
+            description="A lightweight and efficient Python bot running in Docker that monitors succesfull & failed SSH login attempts in real-time and instantly notifies you via Telegram. Perfect for securing home servers, VPS, or Raspberry Pi."
+            url="https://github.com/wpxq/ssh-notifier-telegram"
+            />
             </section>
       <a href="/" className="mt-12 inline-block text-gray-400 hover:text-white">
         ← Back to Home
