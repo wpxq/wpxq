@@ -150,17 +150,17 @@ export default function ProjectsPage() {
             url="https://github.com/wpxq/moviesremind"
             />
             <ProjectRow
-            number="15"
-            title={
-              <span className="flex items-center gap-1">
-                SSH-Notifier-Telegram 
-                <span className="text-white ml-2">[</span>
-                <span className="text-blue-800 font-normal">I personally use it</span>
-                <span className="text-white">]</span>
-              </span>
-            }
-            description="A lightweight and efficient Python bot running in Docker that monitors succesfull & failed SSH login attempts in real-time and instantly notifies you via Telegram. Perfect for securing home servers, VPS, or Raspberry Pi."
-            url="https://github.com/wpxq/ssh-notifier-telegram"
+              number="15"
+              title={
+                <div className="flex items-center flex-wrap gap-2">
+                  <span className="font-bold">SSH-Notifier-Telegram</span>
+                  <span className="text-xs uppercase px-2 py-0.5 rounded border border-blue-500/30 bg-blue-500/10 text-blue-400 font-medium">
+                    I personally use it
+                  </span>
+                </div>
+              }
+              description="A lightweight and efficient Python bot running in Docker that monitors successful & failed SSH login attempts in real-time and instantly notifies you via Telegram."
+              url="https://github.com/wpxq/ssh-notifier-telegram"
             />
             </section>
       <a href="/" className="mt-12 inline-block text-gray-400 hover:text-white">
