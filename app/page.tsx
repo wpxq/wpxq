@@ -42,6 +42,11 @@ export default function Home() {
             skills="Python"
             level="[ 2022 - Present ]"
           />
+          <SkillRow
+            category="Scripting"
+            skills="Go"
+            level="[ Learning ]"
+          />
         </section>
 
     <div className="mt-24 mb-10 ml-2">

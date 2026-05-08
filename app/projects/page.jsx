@@ -107,6 +107,12 @@ export default function ProjectsPage() {
               description="A lightweight and efficient Python bot running in Docker that monitors successful & failed SSH login attempts in real-time and instantly notifies you via Telegram."
               url="https://github.com/wpxq/ssh-notifier-telegram"
             />
+            <ProjectRow
+              number="11"
+              title="xqmap"
+              description="A concurrent network port scanner written in Go, designed for DevOps and CyberSecurity enthusiasts. It features high-speed TCP scanning using goroutines, service detection, and colorized output for better readability."
+              url="https://github.com/wpxq/xqmap"
+              />
             </section>
       <a href="/" className="mt-12 inline-block text-gray-400 hover:text-white">
         ← Back to Home
