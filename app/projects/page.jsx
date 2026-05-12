@@ -110,7 +110,7 @@ export default function ProjectsPage() {
             <ProjectRow
               number="11"
               title="xqmap"
-              description="A concurrent network port scanner written in Go, designed for DevOps and CyberSecurity enthusiasts. It features high-speed TCP scanning using goroutines, service detection, and colorized output for better readability."
+              description="TCP Port scanner made in golang"
               url="https://github.com/wpxq/xqmap"
               />
             </section>
