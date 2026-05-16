@@ -25,20 +25,14 @@ export default function ProjectsPage() {
             description="CLI tool to update all packages from listed package managers."
             url="https://github.com/wpxq/updateit"
           />
-        <ProjectRow 
-            number="02"
-            title="MintzCheatz"
-            description="E-Shop with Spoofers & Cheats, it was for my friend."
-            url="https://github.com/wpxq/mintzcheatz"
-          />
             <ProjectRow
-            number="03"
+            number="02"
             title="DockerTelegramBot"
             description="Docker Bot for Telegram that uses a command to list which containers are running and which are not"
             url="https://github.com/wpxq/DockerTelegramBot"
             />
             <ProjectRow
-            number="04"
+            number="03"
               title={
                 <div className="flex items-center flex-wrap gap-2">
                   <span className="font-bold">ppush</span>
@@ -51,25 +45,25 @@ export default function ProjectsPage() {
             url="https://github.com/wpxq/ppush"
             />
             <ProjectRow
-            number="05"
+            number="04"
             title="Guardian API"
             description="A lightweight, production-ready FastAPI backend designed for Docker infrastructure monitoring and real-time container observability."
             url="https://github.com/wpxq/guardian-api"
             />
             <ProjectRow
-            number="06"
+            number="05"
             title="WMUSIC"
             description=" Minimalistic streamer running on docker."
             url="https://github.com/wpxq/w-music"
             />
             <ProjectRow
-            number="07"
+            number="06"
             title="W-Cards"
             description="A minimalist, high-performance Progressive Web App (PWA) designed to store loyalty cards and barcodes."
             url="https://github.com/wpxq/w-cards"
             />
             <ProjectRow
-            number="08"
+            number="07"
               title={
                 <div className="flex items-center flex-wrap gap-2">
                   <span className="font-bold">IdeasBot</span>
@@ -82,7 +76,7 @@ export default function ProjectsPage() {
             url="https://github.com/wpxq/ideas-bot"
             />
             <ProjectRow
-            number="09"
+            number="08"
               title={
                 <div className="flex items-center flex-wrap gap-2">
                   <span className="font-bold">MoviesRemind</span>
@@ -95,7 +89,7 @@ export default function ProjectsPage() {
             url="https://github.com/wpxq/moviesremind"
             />
             <ProjectRow
-              number="10"
+              number="09"
               title={
                 <div className="flex items-center flex-wrap gap-2">
                   <span className="font-bold">SSH-Notifier-Telegram</span>
@@ -108,7 +102,7 @@ export default function ProjectsPage() {
               url="https://github.com/wpxq/ssh-notifier-telegram"
             />
             <ProjectRow
-              number="11"
+              number="10"
               title="xqmap"
               description="TCP Port scanner made in golang"
               url="https://github.com/wpxq/xqmap"
