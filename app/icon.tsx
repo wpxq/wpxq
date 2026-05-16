@@ -22,10 +22,9 @@ export default async function Icon() {
           alignItems: 'center',
           justifyContent: 'center',
           color: '#ffffff',
-          fontSize: 26,
+          fontSize: 13,
           fontFamily: 'SourceCodePro',
-          transform: 'scale(1.2)',
-          transformOrigin: 'center',
+          letterSpacing: '-0.05em',
         }}
       >
         W
