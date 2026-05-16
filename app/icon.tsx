@@ -1,6 +1,4 @@
 import { ImageResponse } from 'next/og'
-import fs from 'fs'
-import path from 'path'
 
 export const size = {
   width: 32,
@@ -8,38 +6,36 @@ export const size = {
 }
 export const contentType = 'image/png'
 
-export default async function Icon() {
-  const fontPath = path.join(process.cwd(), '/app/fonts/SourceCodePro-Regular.ttf')
-  const fontData = fs.readFileSync(fontPath)
+export default function Icon() {
   return new ImageResponse(
     (
       <div
         style={{
-          background: '#00000000',
           width: '100%',
           height: '100%',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          color: '#ffffff',
-          fontSize: 13,
-          fontFamily: 'SourceCodePro',
-          letterSpacing: '-0.05em',
+          background: 'transparent',
         }}
       >
-        W
+        <svg
+          width="28"
+          height="28"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#ffffff"
+          strokeWidth="2.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <polyline points="4 17 10 11 4 5" />
+          <line x1="12" y1="19" x2="20" y2="19" />
+        </svg>
       </div>
     ),
     {
       ...size,
-      fonts: [
-        {
-          name: 'SourceCodePro',
-          data: fontData,
-          style: 'normal',
-          weight: 400,
-        },
-      ],
     }
   )
 }
