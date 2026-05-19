@@ -98,6 +98,15 @@ export default function Home() {
     </a>
   </div>
 </section>
+    <div className="mt-24 mb-10 ml-2">
+      <h2 className="text-4xl md:text-6xl font-bold uppercase italic tracking-tighter text-gray-200 opacity-50">
+        Experiences
+      </h2>
+      <div className="h-[2px] w-12 bg-gray-900 mt-2"></div>
+    </div>
+    <p clasName="mt-6 text-sm md:text-base font-medium uppercase tracking-widest text-gray-500 italic opacity-50">
+      [ Coming Soon ]
+    </p>
         <Footer />
       </main>
     </div>
