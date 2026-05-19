@@ -99,7 +99,7 @@ export default function Home() {
   </div>
 </section>
     <div className="mt-24 mb-10 ml-2">
-      <h2 className="text-4xl md:text-6xl font-bold uppercase italic tracking-tighter text-gray-200 opacity-50">
+      <h2 className="text-4xl md:text-base font-bold uppercase italic tracking-tighter text-gray-200 opacity-50">
         Experiences
       </h2>
       <div className="h-[2px] w-12 bg-gray-900 mt-2"></div>
