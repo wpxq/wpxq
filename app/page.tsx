@@ -104,7 +104,7 @@ export default function Home() {
       </h2>
       <div className="h-[2px] w-12 bg-gray-900 mt-2"></div>
     </div>
-    <p clasName="mt-6 text-sm md:text-base font-medium uppercase tracking-widest text-gray-500 italic opacity-50">
+    <p className="mt-6 text-sm md:text-base font-medium uppercase tracking-widest text-gray-500 italic opacity-50">
       [ Coming Soon ]
     </p>
         <Footer />
