@@ -18,7 +18,7 @@ export default function Home() {
     w`
   </h1>
   <p className="text-gray-500 font-mono text-sm md:text-base mt-4 ml-2 tracking-[0.2em] uppercase">
-    Linux User & Programmer
+    Building Backend & Automation tools
   </p>
 </div>
   </div>
