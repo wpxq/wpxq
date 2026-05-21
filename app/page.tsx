@@ -4,13 +4,15 @@ import ProjectRow from '@/components/ProjectRow';
 import SkillRow from '@/components/SkillRow';
 
 export default function Home() {
+  const currentHour = Math.floor(Date.now() / (1000 * 60 * 60));
+  const pfpUrl = `https://avatars.githubusercontent.com/u/217353155?v=4&s=160&t=${currentHour}`;
   return (
     <div className="bg-black text-white selection:bg-white selection:text-black min-h-screen font-sans antialiased">
       <main className="max-w-4xl mx-auto px-6 pt-32">
       <section className="mb-40">
   <div className="flex items-end gap-6 md:gap-10">
     <div className="relative w-24 h-24 md:w-40 md:h-40 overflow-hidden rounded-2xl border-2 border-white translate-y-4">
-      <Image src="https://avatars.githubusercontent.com/u/217353155?v=4" alt="Profile" className="object-cover" fill priority sizes="(max-width: 768px) 96px, 160px"/>
+      <Image src={pfpUrl} alt="Profile" className="object-cover" fill priority sizes="(max-width: 768px) 96px, 160px"/>
     </div>
 
   <div className="flex flex-col">
