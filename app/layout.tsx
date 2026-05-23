@@ -6,9 +6,9 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://wpxq.vercel.app/'), 
   title : {
     default: "wpxq - Portfolio",
-    template: "%s | wpxq"
+    template: "%s | wpxq - Portfolio"
   },
-  description: "wpxq - cau",
+  description: "Building Backend & Automation tools",
   authors : [{ name: "wpxq" }],
   openGraph: {
     title: "wpxq - Portfolio",
