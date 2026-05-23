@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   authors : [{ name: "wpxq" }],
   openGraph: {
     title: "wpxq - Portfolio",
-    description: "wpxq - cau",
+    description: "Building Backend & Automation tools",
     url: "https://wpxq.vercel.app/",
     siteName: "wpxq",
     locale: "en_US",

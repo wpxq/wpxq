@@ -12,7 +12,7 @@ export default function Home() {
       <section className="mb-40">
   <div className="flex items-end gap-6 md:gap-10">
     <div className="relative w-24 h-24 md:w-40 md:h-40 overflow-hidden rounded-2xl border-2 border-white translate-y-4">
-      <Image src={pfpUrl} alt="Profile" className="object-cover" fill priority sizes="(max-width: 768px) 96px, 160px"/>
+      <Image src="https://avatars.githubusercontent.com/u/217353155?v=4" alt="Profile" className="object-cover" fill priority sizes="(max-width: 768px) 96px, 160px"/>
     </div>
 
   <div className="flex flex-col">
