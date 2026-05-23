@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://wpxq.vercel.app/'), 
   title : {
     default: "wpxq - Portfolio",
-    template: "%s | wpxq - Portfolio"
+    template: "%s | wpxq"
   },
   description: "Building Backend & Automation tools",
   authors : [{ name: "wpxq" }],
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: "wpxq - Portfolio",
     description: "Building Backend & Automation tools",
     url: "https://wpxq.vercel.app/",
-    siteName: "wpxq",
+    siteName: "wpxq - Portfolio",
     locale: "en_US",
     type: "website",
   }
