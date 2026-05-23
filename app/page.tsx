@@ -87,7 +87,7 @@ export default function Home() {
   />
   <ProjectRow
     number="03"
-    title="w-cards"
+    title="W-Cards"
     description="A minimalist, high-performance Progressive Web App (PWA) designed to store loyalty cards and barcodes. Built with a focus on speed, offline reliability, and seamless cloud synchronization. "
     url="https://github.com/wpxq/w-cards"
   />
