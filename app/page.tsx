@@ -40,12 +40,12 @@ export default function Home() {
             level="[ Learning ]"
           />
           <SkillRow
-            category="Scripting / Automation"
+            category="Scripting"
             skills="Python"
             level="[ 2022 - Present ]"
           />
           <SkillRow
-            category="Scripting / Automation"
+            category="Scripting"
             skills="Go"
             level="[ Learning ]"
           />
