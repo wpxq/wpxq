@@ -35,11 +35,6 @@ export default function Home() {
 
         <section className="border-t border-gray-900">
           <SkillRow
-            category="Front-End"
-            skills="Next.js / Tailwindcss"
-            level="[ Learning ]"
-          />
-          <SkillRow
             category="Scripting"
             skills="Python"
             level="[ 2022 - Present ]"
