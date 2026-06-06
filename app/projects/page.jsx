@@ -134,6 +134,12 @@ export default function ProjectsPage() {
             description="A minimalist, fast, and clean command-line tool for monitoring your running Docker containers. Forget about the clutter of standard docker ps`outputs—dockstat delivers all the essential information you need at a single glance."
             url="https://github.com/wpxq/dockstat"
             />
+            <ProjectRow
+            number="13"
+            title="ppurge"
+            description="ppurge is a lightweight Python automation script designed to help you recover from 'oops' moments in Git. Accidentally pushed your entire Desktop or heavy junk files to a repo? ppurge cleans your history, resets the repository, and synchronizes the clean state—all in one command"
+            url="https://github.com/wpxq/ppurge"
+            />
       <a href="/" className="mt-12 inline-block text-gray-400 hover:text-white">
         ← Back to Home
       </a>
