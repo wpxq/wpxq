@@ -140,6 +140,19 @@ export default function ProjectsPage() {
             description="ppurge is a lightweight Python automation script designed to help you recover from 'oops' moments in Git. Accidentally pushed your entire Desktop or heavy junk files to a repo? ppurge cleans your history, resets the repository, and synchronizes the clean state—all in one command"
             url="https://github.com/wpxq/ppurge"
             />
+            <ProjectRow
+            number="14"
+            title={
+              <div className="flex items-center flex-wrap gap-2">
+                <span className="font-bold">webrr</span>
+                <span className="text-xs uppercase px-2 py-0.5 rounded border border-blue-500/30 bg-blue-500/10 text-blue-400 font-medium">
+                  I personally use it
+                </span>
+              </div>
+            }
+            description="Webrr is a command-line utility written in Go designed to perform reconnaissance on web servers. It checks for security-related HTTP headers, detects Web Application Firewalls (WAFs), and identifies Content Management Systems (CMS)"
+            url="https://github.com/wpxq/webrr"
+            />
       <a href="/" className="mt-12 inline-block text-gray-400 hover:text-white">
         ← Back to Home
       </a>
